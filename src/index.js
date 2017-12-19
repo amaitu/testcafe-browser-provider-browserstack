@@ -1,3 +1,5 @@
+require('dotenv').load();
+
 import Promise from 'pinkie';
 import request from 'request-promise';
 import parseCapabilities from 'desired-capabilities';
@@ -5,8 +7,6 @@ import { Local as BrowserstackConnector } from 'browserstack-local';
 import jimp from 'jimp';
 import OS from 'os-family';
 import nodeUrl from 'url';
-
-require('dotenv').load();
 
 const BUILD_ID = process.env['BROWSERSTACK_BUILD_ID'];
 const PROJECT_NAME = process.env['BROWSERSTACK_PROJECT_NAME'];
