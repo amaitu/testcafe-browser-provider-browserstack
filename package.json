@@ -36,7 +36,8 @@
     "os-family": "^1.0.0",
     "pinkie": "^2.0.4",
     "request": "^2.79.0",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.1.1",
+    "dotenv": "^4.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
